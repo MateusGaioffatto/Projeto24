@@ -52,11 +52,11 @@ if (!isset($_SESSION['logado']) || $_SESSION['logado'] !== true) {
                 <li class="modoEscuroClaroElemento" id="modoEscuroClaroElementoId">
                 <a><i class="fas fa-moon"></i> Modo </a>
                 </li>
-                <li> 
+                <!-- <li> 
                     <a href="logout.php" class="sair-link">
                         <i class="fas fa-sign-out-alt"></i> Deslogar
                     </a>
-                </li>
+                </li> -->
             </ul>
             <div class="menuHamburguerElemento" id="menuHamburguerElementoId"> <!-- HOMEPAGE: NAVBAR, MENU HAMBURGUER -->
                 <i class="fas fa-bars"></i> <!-- ÍCONE, MENU HAMBURGUER -->
@@ -78,7 +78,7 @@ if (!isset($_SESSION['logado']) || $_SESSION['logado'] !== true) {
                 <button id="perfilNavbarEsquerdoPerfilButton02"> MAIS INFORMAÇÕES <i class="fa-solid fa-angle-up" id="perfilNavbarEsquerdoButtonArrowIcon02"></i> </button>   
                 <ul class="perfilNavbarEsquerdoPerfilUl" id="perfilNavbarEsquerdoPerfilUl02_ID">
                     <li> 
-                        <a class="" style="color: inherit; text-decoration: none;">
+                        <a href="Documentação.pdf" target="blank" class="" style="color: inherit; text-decoration: none;">
                             <i class="fa-solid fa-file-lines"></i> Documentação
                         </a>
                     </li>

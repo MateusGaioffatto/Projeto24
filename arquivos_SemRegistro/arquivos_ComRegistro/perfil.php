@@ -76,14 +76,14 @@ if (!isset($_SESSION['logado']) || $_SESSION['logado'] !== true) {
             </div>
             <div class="perfilNavbarEsquerdoDiv">
                 <button id="perfilNavbarEsquerdoPerfilButton02"> MAIS INFORMAÇÕES <i class="fa-solid fa-angle-up" id="perfilNavbarEsquerdoButtonArrowIcon02"></i> </button>   
-                <ul class="perfilNavbarEsquerdoPerfilUl" id="perfilNavbarEsquerdoPerfilUl02_ID">
+                <ul class="perfilNavbarEsquerdoPerfilUl02" id="perfilNavbarEsquerdoPerfilUl02_ID">
                     <li> 
                         <a href="Documentação.pdf" target="blank" class="" style="color: inherit; text-decoration: none;">
                             <i class="fa-solid fa-file-lines"></i> Documentação
                         </a>
                     </li>
                     <li>
-                        <a style="color: inherit; text-decoration: none;">
+                        <a href="sobrePrivacidade.php" target="_blank" style="color: inherit; text-decoration: none;">
                             <i class="fa-solid fa-lock"></i> Sobre sua privacidade
                         </a>
                     </li>

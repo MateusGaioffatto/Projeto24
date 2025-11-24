@@ -88,7 +88,7 @@
             }
 
 
-    .perfilNavbarEsquerdoPerfilUl {        
+    .perfilNavbarEsquerdoPerfilUl, .perfilNavbarEsquerdoPerfilUl02 {        
         display: grid;
 
         list-style: none;
@@ -98,11 +98,11 @@
 
         font-size: 105%;
     }
-        .perfilNavbarEsquerdoPerfilUl li {
+        .perfilNavbarEsquerdoPerfilUl li, .perfilNavbarEsquerdoPerfilUl02 li {
             cursor: pointer;
             transition: var(--transition);
         }
-            .perfilNavbarEsquerdoPerfilUl li:hover {
+            .perfilNavbarEsquerdoPerfilUl li:hover, .perfilNavbarEsquerdoPerfilUl02 li:hover {
                 color: var(--primary);
                 transform: translateY(-2px);
             }
